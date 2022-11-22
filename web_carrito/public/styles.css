@@ -1,0 +1,138 @@
+.body404{
+    background-color: lightgreen;
+}
+.alogo {
+    text-decoration: none;
+}
+.logotext {
+    color: black;
+    text-decoration: none;
+}
+.logotext:hover{
+    color: white;
+    text-decoration: none;
+}
+
+img.img-details {
+    width: auto;
+    height: 250px;
+}
+.card:hover{
+    transform: scale(1.15);
+    box-shadow: 0 20px 20px rgba(72, 72, 72, 0.12), 0 4px 8px rgba(0,0,0,.5);
+    background-color: rgba(255, 255, 255, 100);
+}
+/*.img_icon{*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+/*.search-field{*/
+/*    alignment: center;*/
+/*    width: 50%;*/
+/*}*/
+
+.input-wrapper {
+    position: relative;
+    width: 50px;
+}
+
+.input {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+}
+
+.input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+    padding-left: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#content {
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #37474F;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+}
+
+#sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+#sidebar header a:hover {
+    color: #fff;
+}
+
+#sidebar .nav{
+
+}
+
+#sidebar .nav a{
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 14px;
+    padding: 16px 24px;
+}
+
+#sidebar .nav a:hover{
+    background: none;
+    color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+    margin-right: 16px;
+}
+
+.btn-layout {
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box;
+}

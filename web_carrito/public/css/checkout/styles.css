@@ -1,0 +1,41 @@
+{
+    box-sizing: border-box;
+}
+/* Set additional styling options for the columns*/
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bordeTotales{
+    border: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+.tablaTotales {
+    width: 100%;
+    text-align: right;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 5px 5px 2px #999;
+}
+.td {
+    text-align: right;
+    vertical-align: bottom;
+}
+.tablaResumen {
+    width: 50%;
+    text-align: left;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 5px 5px 2px #999;
+}

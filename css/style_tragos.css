@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}   
+
+header > * {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+header a:hover {
+    background-color: #fbcb09;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    background-color:rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+}
+
+nav a img {
+    height:25px; 
+}
+
+nav a img:hover {
+    animation-name: tamanioDinamicoImagen;
+    animation-duration: 1s;
+}
+
+@keyframes tamanioDinamicoImagen {
+    from {height:25px;}
+    to {height:50px;}
+}
+
+@media screen and (max-width: 600px) {
+    header a {
+    float: none;
+    width: 100%;
+    }
+}
+
+h1,h2,h3,p{
+    color:white;
+    
+}
+
+label{
+    color:white;
+    text-shadow: 0.1em 0.1em 0.1em black
+}
+
+.fondo_tragos{
+    background-image: url(../img/img_tragos3.png);   
+}
+
+tr > *, td > *{
+    color: white;
+    text-align: right;
+    text-shadow: white;
+    font-weight: bold; 
+    font-size: 20px;
+    border-bottom: black; 
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+color: white;
+border-bottom: black;
+box-shadow: none;
+}
+
+main{
+    padding: 4%;
+}
+
+th{
+    text-align: center;
+}
