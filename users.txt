@@ -1,0 +1,7 @@
+
+
+	usuario Admin: admin@mail.net
+	pass	Admin: admin
+	
+	usuario regular:god@mail.net			
+	pass	regular:god
